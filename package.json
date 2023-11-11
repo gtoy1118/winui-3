@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm-run-all --parallel compile:css host:node --aggregate-output",
+    "host:node": "node index.js",
     "compile:css": "sass --color src/scss:public/dist/css"
   },
   "keywords": [],
