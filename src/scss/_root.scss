@@ -1,0 +1,11 @@
+:root {
+  @each $color, $value in $accent-colors {
+    --accent-color-#{$color}: #{$value};
+  }
+  
+  @each $control-var, $value-1 in $fill-color {
+    @each $color, $value in $value-1 {
+      --fill-color-#{$control-var}-#{$color}: #{$value};
+    }
+  }
+}

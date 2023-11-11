@@ -1,0 +1,11 @@
+.winui-button {
+  display: flex;
+  padding-inline: $padding-small;
+  padding-block: 4px 6px;
+  border: none;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  border-radius: $radius-small;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 1px 0 0.5px -0.5px rgba(0,0,0,0.16);
+}

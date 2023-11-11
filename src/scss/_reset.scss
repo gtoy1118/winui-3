@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Segoe UI Icons", Arial, sans-serif;
+  color: black;
+  line-height: 1.33;
+  font-size: 14px;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+h1, .DisplayTextBlockStyle {
+  font-size: 68px;
+  font-weight: 600;
+}
+
+h2, .TitleLargeTextBlockStyle {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3, .TitleTextBlockStyle {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h4, .SubtitleTextBlockStyle {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5, .BodyStrongBlockTextStyle {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+span.icon {
+  display: inline;
+}
+
+body {
+  //padding: $base-padding;
+}
+
+/* Add more reset styles as needed */

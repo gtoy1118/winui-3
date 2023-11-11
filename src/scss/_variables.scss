@@ -1,0 +1,211 @@
+// Accent Colors
+$accent-light-3: #98ECFE;
+$accent-light-2: #60CCFE;
+$accent-light-1: #0093F9;
+$accent-base:    #0078D4;
+$accent-dark-1:  #005EB7;
+$accent-dark-2:  #003D92;
+$accent-dark-3:  #001968;
+
+$accent-colors: (
+  "light-3": $accent-light-3,
+  "light-2": $accent-light-2,
+  "light-1": $accent-light-1,
+  "base":    $accent-base,
+  "dark-1":  $accent-dark-1,
+  "dark-2":  $accent-dark-2,
+  "dark-3":  $accent-dark-3
+);
+
+// Fill Color / Text
+$fill-color-text-primary:   rgba(0,0,0,0.9);
+$fill-color-text-secondary: rgba(0,0,0,0.62);
+$fill-color-text-tertiary:  rgba(0,0,0,0.45);
+$fill-color-text-disabled:  rgba(0,0,0,0.36);
+
+$fill-color-text: (
+  "primary":   $fill-color-text-primary,
+  "secondary": $fill-color-text-secondary,
+  "tertiary":  $fill-color-text-tertiary,
+  "disabled":  $fill-color-text-disabled
+);
+
+// Fill Color / Accent Text
+$fill-color-accent-text-primary:   rgba($accent-dark-2,0.0);
+$fill-color-accent-text-secondary: rgba($accent-dark-3,0.0);
+$fill-color-accent-text-tertiary:  rgba($accent-dark-1,0.0);
+$fill-color-accent-text-disabled:  rgba(0,0,0,0.36);
+
+$fill-color-accent-text: (
+  "primary":   $fill-color-accent-text-primary,
+  "secondary": $fill-color-accent-text-secondary,
+  "tertiary":  $fill-color-accent-text-tertiary,
+  "disabled":  $fill-color-accent-text-disabled
+);
+
+// Fill Color / Text on Accent
+$fill-color-text-on-accent-primary:   rgba(255,255,255,1.0);
+$fill-color-text-on-accent-secondary: rgba(255,255,255,0.7);
+$fill-color-text-on-accent-disabled:  rgba(255,255,255,1.0);
+
+$fill-color-text-on-accent: (
+  "primary": $fill-color-text-on-accent-primary,
+  "secondary": $fill-color-text-on-accent-secondary,
+  "disabled":  $fill-color-text-on-accent-disabled
+);
+
+// Fill Color / Control
+$fill-color-control-default:     rgba(255,255,255,0.7);
+$fill-color-control-secondary:   rgba(249,249,249,0.5);
+$fill-color-control-tertiary:    rgba(249,249,249,0.3);
+$fill-color-control-quaternary:  rgba(243,243,243,0.76);
+$fill-color-control-disabled:    rgba(249,249,249,0.3);
+$fill-color-control-transparent: rgba(0,0,0,0);
+$fill-color-control-active:      rgba(255,255,255,1.0);
+
+$fill-color-control: (
+  "default":     $fill-color-control-default,
+  "secondary":   $fill-color-control-secondary,
+  "tertiary":    $fill-color-control-tertiary,
+  "quaternary":  $fill-color-control-quaternary,
+  "disabled":    $fill-color-control-disabled,
+  "transparent": $fill-color-control-transparent,
+  "active":      $fill-color-control-active
+);
+
+// Fill Color / Control Alt
+$fill-color-control-alt-default:    rgba(255,255,255,0.0);
+$fill-color-control-alt-secondary:  rgba(0,0,0,0.02);
+$fill-color-control-alt-tertiary:   rgba(0,0,0,0.06);
+$fill-color-control-alt-quaternary: rgba(0,0,0,0.09);
+$fill-color-control-alt-disabled:   $fill-color-control-alt-default;
+
+$fill-color-control-alt: (
+  "default":    $fill-color-control-alt-default,
+  "secondary":  $fill-color-control-alt-secondary,
+  "tertiary":   $fill-color-control-alt-tertiary,
+  "quaternary": $fill-color-control-alt-quaternary,
+  "disabled":   $fill-color-control-alt-disabled
+);
+
+// Fill Color / Control Solid
+$fill-color-control-solid-default: rgb(255,255,255);
+
+$fill-color-control-solid: (
+  "default": $fill-color-control-solid-default
+);
+
+// Fill Color / Control Strong
+$fill-color-control-strong-default:  rgba(0,0,0,0.45);
+$fill-color-control-strong-disabled: rgba(0,0,0,0.32);
+
+$fill-color-control-strong: (
+  "default":  $fill-color-control-strong-default,
+  "disabled": $fill-color-control-strong-disabled
+);
+
+// Fill Color / Subtle
+$fill-color-subtle-default:   rgba(0,0,0,0.0);
+$fill-color-subtle-secondary: rgba(0,0,0,0.04);
+$fill-color-subtle-tertiary:  rgba(0,0,0,0.02);
+$fill-color-subtle-disabled:  rgba(0,0,0,0.0);
+
+$fill-color-subtle: (
+  "default":   $fill-color-subtle-default,
+  "secondary": $fill-color-subtle-secondary,
+  "tertiary":  $fill-color-subtle-tertiary,
+  "disabled":  $fill-color-subtle-disabled
+);
+
+// Fill Color / Accent
+$fill-color-accent-default:                  rgba($accent-dark-1,1.0);
+$fill-color-accent-secondary:                rgba($accent-dark-1,0.9);
+$fill-color-accent-tertiary:                 rgba($accent-dark-1,0.8);
+$fill-color-accent-disabled:                 rgba(0,0,0,0.22);
+$fill-color-accent-selected-text-background: rgba($accent-base,1.0);
+
+$fill-color-accent: (
+  "default":                  $fill-color-accent-default,
+  "secondary":                $fill-color-accent-secondary,
+  "tertiary":                 $fill-color-accent-tertiary,
+  "disabled":                 $fill-color-accent-disabled,
+  "selected-text-background": $fill-color-accent-selected-text-background
+);
+
+// Fill Color / System
+$fill-color-system-attention:                  rgba(0,95,183,1.0);
+$fill-color-system-attention-background:       rgba(246,246,246,0.5);
+$fill-color-system-attention-solid-background: rgba(247,247,247,1.0);
+$fill-color-system-success:                    rgba(15,123,15,1.0);
+$fill-color-system-success-background:         rgba(223,246,221,1.0);
+$fill-color-system-caution:                    rgba(157,93,0,1.0);
+$fill-color-system-caution-background:         rgba(255,244,206,1.0);
+$fill-color-system-critical:                   rgba(196,43,28,1.0);
+$fill-color-system-critical-background:        rgba(253,231,233,1.0);
+$fill-color-system-neutral:                    rgba(0,0,0,0.45);
+$fill-color-system-neutral-background:         rgba(0,0,0,0.02);
+$fill-color-system-solid-neutral:              rgba(138,138,138,1.0);
+$fill-color-system-solid-neutral-background:   rgba(243,243,243,1.0);
+
+$fill-color-system: (
+  "attention": $fill-color-system-attention,
+  "attention-background": $fill-color-system-attention-background,
+  "attention-solid-background": $fill-color-system-attention-solid-background,
+  "success": $fill-color-system-success,
+  "success-background": $fill-color-system-success-background,
+  "caution": $fill-color-system-caution,
+  "caution-background": $fill-color-system-caution-background,
+  "critical": $fill-color-system-critical,
+  "critical-background": $fill-color-system-critical-background,
+  "neutral": $fill-color-system-neutral,
+  "neutral-background": $fill-color-system-neutral-background,
+  "solid-neutral": $fill-color-system-solid-neutral,
+  "solid-neutral-background": $fill-color-system-solid-neutral-background
+);
+
+
+// Fill Color
+$fill-color: (
+  "control":        $fill-color-control,
+  "control-alt":    $fill-color-control-alt,
+  "control-solid":  $fill-color-control-solid,
+  "control-strong": $fill-color-control-strong,
+  "subtle":         $fill-color-subtle,
+  "accent":         $fill-color-accent,
+  "text":           $fill-color-text,
+  "accent-text":    $fill-color-accent-text,
+  "text-on-accent": $fill-color-text-on-accent,
+  "system":         $fill-color-system
+);
+
+$radius-large: 8px;
+$radius-small: 4px;
+$radius-none: 0;
+
+$radii: (
+  "large": 8px,
+  "small": 4px,
+  "none": 0
+);
+
+$margin-large: 56px;
+$margin-small: 12px;
+$margin-none: 0px;
+
+$margins: (
+  "large": 56px,
+  "small": 12px,
+  "none": 0
+);
+
+$padding-large: 56px;
+$padding-small: 12px;
+$padding-none: 0px;
+
+$paddings: (
+  "large": 56px,
+  "small": 12px,
+  "none": 0
+);
+
+$border-width: 1px;
