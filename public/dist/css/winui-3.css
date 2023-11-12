@@ -76,10 +76,6 @@
   font-size: 14px;
 }
 
-body {
-  background-color: #cccccc;
-}
-
 h1, .DisplayTextBlockStyle {
   font-size: 68px;
   font-weight: 600;
@@ -109,15 +105,19 @@ span.icon {
   display: inline;
 }
 
+body {
+  background-image: url("/dist/img/backgroundBlue1.jpg");
+}
+
 /* Add more reset styles as needed */
 .main {
-  margin-inline: 12px;
-  margin-block: 12px;
+  padding-inline: 12px;
+  padding-block: 12px;
 }
 
 .main-large {
-  margin-inline: 56px;
-  margin-block: 12px;
+  padding-inline: 56px;
+  padding-block: 12px;
 }
 
 .winui-button {
@@ -130,6 +130,11 @@ span.icon {
   align-self: stretch;
   border-radius: 4px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05), 1px 0 0.5px -0.5px rgba(0, 0, 0, 0.16);
+}
+
+.background.accent-acrylic {
+  background: url("/dist/img/NoiseAsset2.png"), linear-gradient(0deg, rgba(243, 243, 243, 0) 0%, rgba(243, 243, 243, 0) 100%), rgba(243, 243, 243, 0.9);
+  background-blend-mode: normal, color, luminosity;
 }
 
 /*# sourceMappingURL=winui-3.css.map */

@@ -8,10 +8,6 @@
   font-size: 14px;
 }
 
-body {
-  background-color: #cccccc;
-}
-
 h1, .DisplayTextBlockStyle {
   font-size: 68px;
   font-weight: 600;
@@ -42,7 +38,7 @@ span.icon {
 }
 
 body {
-  //padding: $base-padding;
+  background-image: url("/dist/img/backgroundBlue1.jpg");
 }
 
 /* Add more reset styles as needed */
