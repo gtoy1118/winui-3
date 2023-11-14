@@ -178,6 +178,66 @@ $fill-color: (
   "system":         $fill-color-system
 );
 
+// Materials / Card Background / Default
+$materials-card-background-default-background: rgba(255,255,255,0.7);
+$materials-card-background-default-blend:      normal;
+
+$materials-card-background-default: (
+  "background": $materials-card-background-default-background,
+  "blend":      $materials-card-background-default-blend
+);
+
+// Materials / Card Background / Secondary
+$materials-card-background-secondary-background: rgba(246,246,246,0.5);
+$materials-card-background-secondary-blend:      normal;
+
+$materials-card-background-secondary: (
+  "background": $materials-card-background-secondary-background,
+  "blend":      $materials-card-background-secondary-blend
+);
+
+// Materials / Card Background / Tertiary
+$materials-card-background-tertiary-background: rgba(255,255,255,1.0);
+$materials-card-background-tertiary-blend:      normal;
+
+$materials-card-background-tertiary: (
+  "background": $materials-card-background-tertiary-background,
+  "blend":      $materials-card-background-tertiary-blend
+);
+
+// Materials / Smoke / Default
+$materials-smoke-default-background: rgba(0,0,0,0.3);
+$materials-smoke-default-blend:      normal;
+
+$materials-smoke-default: (
+  "background": $materials-smoke-default-background,
+  "blend":      $materials-smoke-default-blend
+);
+
+
+
+$spacer: 12px;
+$spacers: (
+  0: 0,
+  1: 4px,
+  2: 8px,
+  3: $spacer,
+  4: 32px,
+  5: 56px
+);
+
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%
+);
+
+// Body
+
+$body-text-align: left;
+$body-color:      var(--fill-color-text-primary);
+$body-bg:         0;
+
 $radius-large: 8px;
 $radius-small: 4px;
 $radius-none: 0;

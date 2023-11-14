@@ -2,10 +2,16 @@
   @each $color, $value in $accent-colors {
     --accent-color-#{$color}: #{$value};
   }
+
+  @each $color, $value in $accent-colors-rgb {
+    --accent-color-#{$color}-rgb: #{$value};
+  }
   
   @each $control-var, $value-1 in $fill-color {
     @each $color, $value in $value-1 {
       --fill-color-#{$control-var}-#{$color}: #{$value};
+      --fill-color-#{$control-var}-#{$color}-rgb: #{to-rgb($value)};
+      --fill-color-#{$control-var}-#{$color}-rgba: #{to-rgba($value)};
     }
   }
 }
