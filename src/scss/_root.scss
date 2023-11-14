@@ -14,4 +14,10 @@
       --fill-color-#{$control-var}-#{$color}-rgba: #{to-rgba($value)};
     }
   }
+
+  @each $key, $val in $materials {
+    @each $_key, $_val in $val {
+      --materials-#{$key}-#{$_key}: #{$_val};
+    }
+  }
 }

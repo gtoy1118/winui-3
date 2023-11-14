@@ -167,6 +167,108 @@
   --fill-color-system-solid-neutral-background: rgb(243, 243, 243);
   --fill-color-system-solid-neutral-background-rgb: 243, 243, 243;
   --fill-color-system-solid-neutral-background-rgba: 243, 243, 243, 1;
+  --materials-card-background-default: rgba(255, 255, 255, 0.7);
+  --materials-card-background-secondary: rgba(246, 246, 246, 0.5);
+  --materials-card-background-tertiary: rgb(255, 255, 255);
+  --materials-smoke-default: rgba(0, 0, 0, 0.3);
+  --materials-layer-default: rgba(255, 255, 255, 0.5);
+  --materials-layer-alt: rgb(255, 255, 255);
+  --materials-layer-on-acrylic-default: rgba(255, 255, 255, 0.25);
+  --materials-layer-on-mica-base-alt-default: rgba(255, 255, 255, 0.7);
+  --materials-layer-on-mica-base-alt-secondary: rgba(0, 0, 0, 0.04);
+  --materials-layer-on-mica-base-alt-tertiary: rgb(249, 249, 249);
+  --materials-layer-on-mica-base-alt-transparent: transparent;
+  --materials-solid-base: rgb(243, 243, 243);
+  --materials-solid-base-alt: rgb(218, 218, 218);
+  --materials-solid-secondary: rgb(238, 238, 238);
+  --materials-solid-tertiary: rgb(249, 249, 249);
+  --materials-solid-quaternary: rgb(255, 255, 255);
+  --materials-solid-quinary: rgb(253, 253, 253);
+  --materials-solid-senary: rgb(255, 255, 255);
+  --materials-mica-base: rgba(243, 243, 243, 0.5) normal, rgba(243, 243, 243, 0.5) color, rgb(243, 243, 243) luminosity;
+  --materials-mica-base-alt: rgba(218, 218, 218, 0.5) normal, rgb(218, 218, 218) luminosity;
+  --materials-acrylic-base: url("/dist/img/NoiseAsset2.png"), rgba(243, 243, 243, 0) color, rgba(243, 243, 243, 0.9) luminosity;
+  --materials-acrylic-accent-base: url("/dist/img/NoiseAsset2.png"), rgba(var(--accent-light-3-rgb), 0.8) color, rgba(var(--accent-light-3-rgb), 0.8) luminosity;
+}
+
+.card-background.default {
+  background: rgba(255, 255, 255, 0.7);
+}
+.card-background.secondary {
+  background: rgba(246, 246, 246, 0.5);
+}
+.card-background.tertiary {
+  background: rgb(255, 255, 255);
+}
+
+.smoke.default {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.layer.default {
+  background: rgba(255, 255, 255, 0.5);
+}
+.layer.alt {
+  background: rgb(255, 255, 255);
+}
+
+.layer-on-acrylic.default {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.layer-on-mica-base-alt.default {
+  background: rgba(255, 255, 255, 0.7);
+}
+.layer-on-mica-base-alt.secondary {
+  background: rgba(0, 0, 0, 0.04);
+}
+.layer-on-mica-base-alt.tertiary {
+  background: rgb(249, 249, 249);
+}
+.layer-on-mica-base-alt.transparent {
+  background: transparent;
+}
+
+.solid.base {
+  background: rgb(243, 243, 243);
+}
+.solid.base-alt {
+  background: rgb(218, 218, 218);
+}
+.solid.secondary {
+  background: rgb(238, 238, 238);
+}
+.solid.tertiary {
+  background: rgb(249, 249, 249);
+}
+.solid.quaternary {
+  background: rgb(255, 255, 255);
+}
+.solid.quinary {
+  background: rgb(253, 253, 253);
+}
+.solid.senary {
+  background: rgb(255, 255, 255);
+}
+
+.mica.base {
+  background: rgba(243, 243, 243, 0.5) normal, rgba(243, 243, 243, 0.5) color, rgb(243, 243, 243) luminosity;
+}
+.mica.base-alt {
+  background: rgba(218, 218, 218, 0.5) normal, rgb(218, 218, 218) luminosity;
+}
+
+.acrylic.base {
+  background: url("/dist/img/NoiseAsset2.png"), rgba(243, 243, 243, 0) color, rgba(243, 243, 243, 0.9) luminosity;
+}
+
+.acrylic-accent.base {
+  background: url("/dist/img/NoiseAsset2.png"), rgba(var(--accent-light-3-rgb), 0.8) color, rgba(var(--accent-light-3-rgb), 0.8) luminosity;
+}
+
+body {
+  background: url("/dist/img/img0.jpg");
+  background-size: cover;
 }
 
 /*# sourceMappingURL=winui-3.css.map */

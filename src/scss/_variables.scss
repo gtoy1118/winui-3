@@ -236,6 +236,52 @@ $materials-solid-quaternary: rgba(255,255,255,1.0);
 $materials-solid-quinary: rgba(253,253,253,1.0);
 $materials-solid-senary: rgba(255,255,255,1.0);
 
+$materials-solid: (
+  "base":          $materials-solid-base,
+  "base-alt":      $materials-solid-base-alt,
+  "secondary":     $materials-solid-secondary,
+  "tertiary":      $materials-solid-tertiary,
+  "quaternary":    $materials-solid-quaternary,
+  "quinary":       $materials-solid-quinary,
+  "senary":        $materials-solid-senary
+);
+
+// Materials / Mica
+$materials-mica-base: rgba(243,243,243,0.5) normal,rgba(243,243,243,0.5) color,rgba(243,243,243,1.0) luminosity;
+$materials-mica-base-alt: rgba(218,218,218,0.5) normal, rgba(218,218,218,1.0) luminosity;
+
+$materials-mica: (
+  "base": $materials-mica-base,
+  "base-alt": $materials-mica-base-alt
+);
+
+// Materials / Acrylic
+$materials-acrylic-base: url("/dist/img/NoiseAsset2.png"),rgba(243,243,243,0.0) color,rgba(243,243,243,0.9) luminosity;
+
+$materials-acrylic: (
+  "base": $materials-acrylic-base
+);
+
+// Materials / Acrylic Accent
+$materials-acrylic-accent-base: url("/dist/img/NoiseAsset2.png"),rgba(var(--accent-light-3-rgb),0.8) color,rgba(var(--accent-light-3-rgb),0.8) luminosity;
+
+$materials-acrylic-accent: (
+  "base": $materials-acrylic-accent-base
+);
+
+// Materials
+$materials: (
+  "card-background": $materials-card-background,
+  "smoke": $materials-smoke,
+  "layer": $materials-layer,
+  "layer-on-acrylic": $materials-layer-on-acrylic,
+  "layer-on-mica-base-alt": $materials-layer-on-mica-base-alt,
+  "solid": $materials-solid,
+  "mica": $materials-mica,
+  "acrylic": $materials-acrylic,
+  "acrylic-accent": $materials-acrylic-accent
+);
+
 $spacer: 12px;
 $spacers: (
   0: 0,

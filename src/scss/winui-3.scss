@@ -6,3 +6,9 @@
 @import "maps";
 
 @import "root";
+@import "materials";
+
+body {
+  background: url("/dist/img/img0.jpg");
+  background-size: cover;
+}

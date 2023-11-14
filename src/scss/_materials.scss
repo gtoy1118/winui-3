@@ -1,0 +1,9 @@
+@each $key, $val in $materials {
+  .#{$key} {
+    @each $_key, $_val in $val {
+      &.#{$_key} {
+        background: $_val;
+      }
+    }
+  }
+}
